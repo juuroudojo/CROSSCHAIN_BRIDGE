@@ -1,13 +1,4 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+# 𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗧𝗜𝗢𝗡
+- Cross-chain bridge allowing transfers of tokens from ETHEREUM Chain to BSC and vice versa
+- The signature is executed off-chain by a JS script
+- Script listens to swapInitalised events on both Bridges and executed calls to the other Bridge also verifying the caller
